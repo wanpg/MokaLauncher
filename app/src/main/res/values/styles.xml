@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowAnimationStyle">@a</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!--<item name="android:fastScrollOverlayPosition">aboveThumb</item>-->
+        <!--<item name="android:fastScrollTextColor">@color/apptheme_color</item>-->
+        <!--<item name="android:fastScrollPreviewBackgroundRight">@drawable/bg_default_focused_holo_light</item>-->
+
+        <!-- 防止Button中设置英文时自动大写 -->
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <!-- 防止Button中设置英文时自动加粗 -->
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+</resources>
